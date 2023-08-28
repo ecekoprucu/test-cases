@@ -1,0 +1,15 @@
+div.dark {
+    color: #fff;
+}
+
+div.light {
+    color: #000;
+}
+
+h1 {
+    color: inherit;
+}
+
+label {
+    color: inherit;
+}

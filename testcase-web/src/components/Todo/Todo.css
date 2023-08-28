@@ -1,0 +1,50 @@
+.single-todo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-todo.dark {
+    color: #fff;
+}
+
+.single-todo.light {
+    color: #000;
+}
+
+.submit-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-todo p {
+    flex-grow: 0.5;
+    margin-left: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow: scroll;
+    color: inherit;
+}
+
+p.done {
+    text-decoration: line-through;
+}
+
+button.remove {
+    margin-left: auto;
+    padding: 0.3em 0.6em;
+}
+
+button.cancel-edit {
+    background-color: darkred;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 1em;
+}
